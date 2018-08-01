@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/media_cart.css">
+    <link rel="shortcut icon" href="http://vksm.ru/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <title>Корзина</title>
+    <meta name="Keywords" content="" />
+    <!-- <script type="text/javascript" src="/t/js/jquery.min.js"></script> -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-712852-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+</head>
+<body>
+    <input type="checkbox" id="nav_control" name="nav_control" />
+    <header class="top">
+        <div class="nav-line">
+            <div class="wr">
+                <div class="flex-menu">
+                    <div class="left-side">
+                        <a class="logo-box" href="http://vksm.ru/"></a>
+                    </div>
+                    <div class="center-side">
+                        <div class="top-menu">
+                            <ul>                    <li class="menu__item  "><a href="http://vksm.ru/history.html" class="menu__link">О комбинате</a>
+                                <ul class="sub-nav"><li><a href="http://vksm.ru/history.html">История</a></li><li><a href="http://vksm.ru/production.html">Производство</a></li><li><a href="http://vksm.ru/disclosure.html">Раскрытие информации</a></li><li><a href="http://vksm.ru/service_quality.html">Служба качества</a></li><li><a href="http://vksm.ru/careers.html">Вакансии</a></li><li><a href="http://vksm.ru/partners.html">Партнёры</a></li><li><a href="http://vksm.ru/licenses_and_certificates.html">Лицензии и сертификаты</a></li><li><a href="http://vksm.ru/training_center.html">Учебный центр</a></li><li><a href="http://vksm.ru/social_services.html">Социальная сфера</a></li><li><a href="http://vksm.ru/distributors.html">Дистрибьюторы</a></li></ul>
+                            </li>                    <li class="menu__item  "><a href="http://vksm.ru/catalog.html" class="menu__link">Продукция</a>
+                                <ul class="sub-nav"><li><a href="http://vksm.ru/catalog/kirpich-silikatniy.html">Кирпич силикатный</a></li><li><a href="http://vksm.ru/catalog/gazosilikatnie-bloki.html">Газосиликатные блоки</a></li><li><a href="http://vksm.ru/catalog/plitka-trotuarnaya.html">Плитка тротуарная</a></li><li><a href="http://vksm.ru/price.html">Прайс-лист</a></li><li><a href="http://vksm.ru/shipping_and_unloading.html">Доставка и выгрузка</a></li></ul>
+                            </li>                    <li class="menu__item  "><a href="http://vksm.ru/news.html" class="menu__link">Пресс-центр</a>
+                                <ul class="sub-nav"><li><a href="http://vksm.ru/news.html" class="active">Новости</a></li><li><a href="http://vksm.ru/articles.html">Статьи и публикации</a></li><li><a href="http://vksm.ru/photo.html">Фотогалерея</a></li></ul>
+                            </li>                    <li class="menu__item  "><a href="http://vksm.ru/contacts.html" class="menu__link">Контакты</a>
+
+                            </li></ul>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="price-link"><nobr><a href="http://vksm.ru/price.html">Прайс-лист</a></nobr></div>
+                        <div class="top-contact">
+                            <div class="top-tel"><a href="tel:+74732003301"><nobr><span>(473)</span> 210-62-08</nobr></a></div>
+                            <div class="top-mail"><a href="mailto:o.p.vksm@yandex.ru">o.p.vksm@yandex.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- nav-line -->
+    </header><!-- top -->
+    <section class="page-block page-block-cart">
+        <div class="wr">
+            <div class="path">
+                <div class="path"><a href="http://vksm.ru/" class="start">Главная</a>&rarr; Корзина</div>
+            </div>
+            <div class="page">
+
+                <div class="content">
+                    <h1 class="header header-cart">Корзина</h1>
+                    <div class="text">
+                      <div class="text-date">20 июля 2018</div>
+                  </div>
+                  <div class="content__cart" >
+                    <div class="products">
+                        <div class="cart-card c1">
+                            <div class="cart-card__img">
+                                <img src="img/1.png" alt="img">
+                            </div>
+                            <div class="cart-card__dscr">
+                                <div class="dscr">Кирпич рядовой М 125-175 навалом (мин. партия 678 шт.)<p>8,69 руб./шт</p>
+                                    <p><span id='sum1'>5891.82</span> руб.</p>
+                                </div>
+                            </div>
+
+                            <div class="cart-card__count">
+
+                                <div class="quantity-block b1">
+                                    <span>Кол-во</span>
+                                    <button class="quantity-arrow-plus p1" id="moz-plus1" onclick="plus()"><span></span></button>
+                                    <input class="quantity-num n1" type="number" value="1" id='num1'/>
+                                    <button class="quantity-arrow-minus m1" id="moz-minus1" onclick="minus()"><span></span></button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="cart-card c2">
+                            <div class="cart-card__img">
+                                <img src="img/2.png" alt="img">
+                            </div>
+                            <div class="cart-card__dscr">
+                                <div class="dscr">Кирпич рядовой М 125-175 на поддоне (678 шт.)
+                                    <p>8,69 руб./шт</p>
+                                    <p><span id='sum2'>5891.82</span> руб.</p>
+                                </div>
+                            </div>
+
+                            <div class="cart-card__count">
+                              <div class="quantity-block b2">
+                                <span>Кол-во</span>
+                                <button class="quantity-arrow-plus p2" id="moz-plus2" onclick="plus2()"><span></span></button>
+                                <input class="quantity-num n2" type="number" value="1" id='num2'/>
+                                <button class="quantity-arrow-minus m2" id="moz-minus2" onclick="minus2()"><span></span></button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="cart-card c3">
+
+                        <div class="cart-card__img">
+                            <img src="img/3.png" alt="img">
+                        </div>
+                        <div class="cart-card__dscr">
+                            <div class="dscr">1 Камаз = 3 поддона (2034 шт.)<p>8,69 руб./шт</p>
+                             <p><span id='sum3'>5891.82</span> руб.</p>
+                         </div>
+                     </div>
+
+                     <div class="cart-card__count">
+                        <div class="quantity-block b3">
+                            <span>Кол-во</span>
+                            <button class="quantity-arrow-plus p3" id="moz-plus3" onclick="plus3()"><span></span></button>
+                            <input class="quantity-num n3" type="number" value="1" id='num3'/>
+                            <button class="quantity-arrow-minus m3" id="moz-minus3" onclick="minus3()"><span></span></button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="products__total-count">
+                    Общая сумма заказа:<span id='sum'>11783.64</span> руб.
+                </div>  
+                <div class="resault"><input class="button" type="submit" value="Пересчитать" onclick="resault()"></div>
+            </div>
+
+            <div class="cart-form">
+
+                <div class="cart-form__pt-sans">Оформление заказа</div>
+                <div class="cart-form__container">
+                    <form action="#" method="post">
+                        <label class="radio-label">
+                            <input type="radio" class="cart-form__container__radio" name="method" value="delivery" checked>
+                            <span class="radio-custom"></span>
+                            <span class="label">Доставка к месту</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" class="cart-form__container__radio" name="method" value="pickup">
+                            <span class="radio-custom"></span>
+                            <span class="label">Самовывоз</span>
+                        </label>
+                        <div class="adress-div"><label class="cart-form__container__label" for="adress">Адрес доставки</label></div>
+                        <div class="adress-div-map"><input type="text" class="cart-form__container__adress" name="adress" id="adress" placeholder="Например, Воронеж, ул. Моисеева, 44а"></div>
+                        <div><label class="cart-form__container__label" for="name">Представтесь, пожалуйста</label></div>
+                        <div><input type="text" class="cart-form__container__name" name="name" id="name"value="" placeholder="Введите ваше имя"></div>
+                        <div><label class="cart-form__container__label" for="phone">Ваш телефон</label></div>
+                        <div><input type="text" class="cart-form__container__phone" name="phone" id="phone" value="" placeholder="Ваш телефон"></div>
+                        <div><label class="cart-form__container__label" for="email">Ваш email</label></div>
+                        <div><input type="email" class="cart-form__container__email" name="email" value="" id="email" placeholder="Введите ваш email"></div>
+                        <div><input class="button" type="submit" value="Оформить заказ"></div>
+                    </form>
+
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+</div>
+</section><!-- service-block -->
+
+
+<section class="footer-line">
+    <div class="wr">
+        <div class="over">
+            <div class="col-4">
+                <a class="logo white" href="http://vksm.ru/">ВКСМ</a>
+            </div>
+            <div class="col-4">
+                <p>
+                    394040, г.Воронеж, <br />
+                    Советский р-н, ул. Тихий Дон, 57<br />
+                    <a href="http://vksm.ru/contacts.html">схема проезда</a> | <a href="http://vksm.ru/contacts.html#map">на карте</a>
+                </p>
+                <p><a href="mailto:o.p.vksm@yandex.ru">o.p.vksm@yandex.ru</a></p>
+            </div>
+            <div class="col-4">
+                <ul class="f-nav">
+                    <li><a href="http://vksm.ru/history.html">О комбинате</a></li>
+                    <li><a href="http://vksm.ru/catalog.html">Продукция</a></li>
+                    <li><a href="http://vksm.ru/news.html">Пресс-центр</a></li>
+                    <li><a href="http://vksm.ru/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col-4 min">
+                <ul class="f-nav">
+                    <li><a href="http://vksm.ru/catalog.html">Продукция</a></li>
+                    
+                    <li><a href="http://vksm.ru/catalog/kirpich-silikatniy.html">Кирпич силикатный</a></li>
+
+
+                    <li><a href="http://vksm.ru/catalog/gazosilikatnie-bloki.html">Газосиликатные блоки</a></li>
+
+
+                    <li><a href="http://vksm.ru/catalog/plitka-trotuarnaya.html">Плитка тротуарная</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="over">
+            <div class="col-4">
+                <p><a href="tel:84732106208">+7 (473) 210-62-08</a> - Отдел продаж</p>
+
+                <p><a href="tel:84732343285">+7 (473) 234-32-85</a> - факс (автомат)</p>
+
+            </div>
+            <div class="col-4">
+                <p><a href="tel:847322248992">+7 (473) 224-89-92</a> - секретарь</p>
+
+                <p><a href="tel:84732248665">+7 (473) 224-86-65</a> - факс (автомат)</p>
+
+                <p><a href="tel:84732343216">+7 (473) 234-32-16</a> - отдел снабжения</p>
+
+            </div>
+            <div class="col-4 min">
+                <ul class="f-nav">
+                    <nobr> <li><a class="f-price-link" href="http://vksm.ru/price.html">Скачать Прайс-лист</a></li></nobr>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="wr social">
+       <a href="https://vk.com/vksmonline" target="_blank">
+           <img src="http://vksm.ru/t/img/vk-logo.svg">
+       </a>
+   </div>
+   <div class="wr over">
+    <div class="copy">© ЗАО «ВКСМ», 2017. Все права защищены &#183; <a href="http://vksm.ru/uploads/docs/privacy-policy.pdf" target="_blank">Положение о персональных данных</a></div>
+    <div class="dev">Сделала <a href="http://juno.ru/">Юнона</a></div>
+</div>
+</footer><!-- footer -->
+<svg style="display: none;">
+    <symbol id="menu">
+        <path d="M0,0V3H25V0ZM0,10H25V7H0Zm0,7H25V14H0Z"/ />
+    </symbol>
+    <symbol id="dropdown">
+        <path d="M6.364 4.9497L1.4142 0 0 1.4142l6.364 6.364 6.364-6.364L11.3136 0" fill="#FFF" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="logo">
+        <path d="M76.68 25.956a9.665 9.665 0 1 1 9.788-9.664 9.737 9.737 0 0 1-9.788 9.664zm0-14.216a4.553 4.553 0 1 0 4.611 4.552 4.586 4.586 0 0 0-4.611-4.552zm0-5.084a9.637 9.637 0 1 1-9.758 9.636 9.709 9.709 0 0 1 9.758-9.636m0 14.217a4.582 4.582 0 1 0-4.639-4.582 4.616 4.616 0 0 0 4.639 4.582m0-14.274a9.694 9.694 0 1 0 9.817 9.693A9.755 9.755 0 0 0 76.68 6.6zm0 14.217a4.524 4.524 0 1 1 4.582-4.524 4.553 4.553 0 0 1-4.582 4.524zm67.852 5.14a9.665 9.665 0 1 1 9.788-9.664 9.738 9.738 0 0 1-9.788 9.664zm0-14.216a4.553 4.553 0 1 0 4.61 4.552 4.587 4.587 0 0 0-4.61-4.552zm0-5.084a9.637 9.637 0 1 1-9.759 9.636 9.709 9.709 0 0 1 9.759-9.636m0 14.217a4.582 4.582 0 1 0-4.64-4.582 4.616 4.616 0 0 0 4.64 4.582m0-14.274a9.694 9.694 0 1 0 9.817 9.693 9.756 9.756 0 0 0-9.817-9.693zm0 14.217a4.524 4.524 0 1 1 4.581-4.524 4.552 4.552 0 0 1-4.581 4.524zm-15.1 5.147l-5.37-5.3 4.011-3.927L137.414 26zm-1.379-9.168l9.241 9.126-7.85.014-5.321-5.254 3.93-3.886m0-.081l-4.012 3.967 5.379 5.311 8.013-.014-9.38-9.263zm-99.511 9.242l.029-14.188-8.194-.028 5.248-5.121 19.355.009-5.254 5.121-5.291-.008-.029 14.215h-5.864zm16.3-19.3l-5.118 5.055h-5.347v14.217H28.6V11.711h-8.084l5.112-5.055h19.213m.139-.056H25.6l-5.227 5.169h8.165v14.216h5.892V11.768h5.312L44.98 6.6zm68.841 19.357l.028-19.357 5.865.028-.029 7.558 7.732-7.566 7.382.01-15.106 14.846-.008 4.48h-5.864zm5.835-19.3v7.667l.1-.1 7.666-7.57h7.238l-14.986 14.8-.017.017v4.456h-5.778V6.656h5.778M127.4 6.6l-7.683 7.586V6.6h-5.893v19.385h5.893V21.5L134.8 6.6h-7.4zM97.312 4.2l4.244-4.17-.05 8.613-4.193 4.13V4.195zm4.165-4.053V8.62l-4.138 4.08V4.22l4.136-4.077m.057-.143l-4.251 4.191v8.641l4.251-4.2V0zM9.817 25.956a9.665 9.665 0 1 1 0-19.329h12.317l-5.254 5.121-7.064-.008a4.553 4.553 0 1 0 0 9.105h9.874l-.029 5.111H9.817zm12.178-19.3l-5.118 5.055h-7.06a4.582 4.582 0 1 0 0 9.162h9.816v5.054H9.817a9.637 9.637 0 1 1 0-19.272h12.178m.14-.057H9.817a9.694 9.694 0 1 0 0 19.386h9.874v-5.168H9.817a4.524 4.524 0 1 1 0-9.048H16.9L22.134 6.6zm81.8 19.357l.029-5.5 5.884-5.8-.048 11.308zm5.835-11.186v11.166l-5.77-.007v-5.449l5.777-5.709m.057-.138l-5.892 5.824v5.529l5.892.007v-11.36zM88.947 25.956l.028-13.54 5.885-5.792-.049 12.056 9.149-8.964.008-3.112 5.863.029-.031 4.558-14.972 14.765h-5.881zm20.827-19.295v4.506L104 16.873l-.1.1-9.083 8.961h-5.81V12.44l5.778-5.7v12.078l.1-.1 9.1-8.984.015-.014V6.661h5.777m.057-.057h-5.892V9.7l-9.1 8.984V6.6l-5.892 5.812v13.573h5.892l9.1-8.978 5.892-5.82V6.6zM156.9 25.96l.028-13.1 5.885-6.232-.05.068 7.619 7.534 7.747-7.609 5.871.01-.029 19.329h-5.864l.029-12.05-7.754 7.59-7.571-7.514-.05 12zm27.044-19.3v19.271h-5.777V13.772l-.1.1-7.667 7.566-7.571-7.475-.1-.1v12.068h-5.776v-13.05l5.794-6.147 7.611 7.514.041.04.04-.04 7.682-7.585h5.819m-5.835-.06l-7.705 7.605-7.611-7.514v-.087l-5.889 6.252v13.13h5.892V14l7.611 7.514 7.7-7.608v12.082H184V6.6h-5.893zM43.229 25.956l.029-14.194 5.216-5.14 8.026.006a8.405 8.405 0 0 1-.175 16.809h-4.682l.029-5.141 3.9.028a3.292 3.292 0 1 0 0-6.584H49.12l-.02 14.216h-5.871zm13.27-19.3a8.416 8.416 0 0 1 5.819 2.543 8.327 8.327 0 0 1 2.4 5.854 8.432 8.432 0 0 1-8.388 8.355H51.7v-5.056h3.873a3.321 3.321 0 1 0 0-6.641h-6.509v14.217h-5.777V11.785l5.193-5.129h8.02m0-.057h-8.046l-5.225 5.16v14.226h5.9V11.768h6.452a3.264 3.264 0 1 1 0 6.527H51.65v5.17h4.683A8.433 8.433 0 0 0 56.5 6.6z" fill-rule="evenodd"/>
+    </symbol>
+</svg>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter28857740 = new Ya.Metrika({id:28857740,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/28857740" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<link rel="stylesheet" href="http://vksm.ru/t/css/main.css" type="text/css" />
+<link rel="stylesheet" href="http://vksm.ru/t/css/responsive.css" type="text/css" />
+<link rel="stylesheet" href="http://vksm.ru/t/css/styleSliderQuality.css" type="text/css" />
+<script type="text/javascript" src="/t/js/vacancyPopup.js"></script>
+<script type="text/javascript" src="/t/js/jquery.glide.min.js"></script>
+<script type="text/javascript" src="/t/js/responsiveslides.js"></script>
+<script type="text/javascript" src="/t/js/libs.js?v=2"></script>
+<script type="text/javascript" src="/t/js/java.js"></script>
+<script src="https://callback.onlinepbx.ru/loader.js" charset="UTF-8" data-onpbxcb-id="22d197678264c4154c51c2e97499b32c"></script>                    
+<div alt="433" class="popups">
+ <div class="popups__item">
+    <a href="#x" class="overlay" id="popup-cost1"></a>
+    <div class="popup2">
+        <div class="popup__wp">
+            <div class="popup__top"><a href="#x" class="popup__close icon-close"></a></div>
+            <div class="popup__content">
+                <center><img src="/t/img/form_logo.jpeg" alt="" /></center><br><br>
+                <iframe  src="/amoform.php?id=277927&hash=e23c303a5391eee9a0c60d448b927652" class="amoforms_iframe" allowtransparency="" scrolling="no" frameborder="0" style="width: 100%; position: inherit; height: 580px; overflow: visible; margin: 0px 0px 10px; padding: 0px; border: none; z-index: 10000; right: 0px; bottom: 0px; opacity: 1;"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+    <a href="#x" class="overlay" id="popup-cost2"></a>
+    <div class="popup2">
+        <div class="popup__wp">
+            <div class="popup__top"><a href="#x" class="popup__close icon-close"></a></div>
+            <div class="popup__content">
+             <center><img src="/t/img/form_logo.jpeg" alt="" /></center><br><br>
+             <iframe  src="/amoform.php?id=277945&hash=843606de7c5360680bedb47b999eecaa" class="amoforms_iframe" allowtransparency="" scrolling="no" frameborder="0" style="width: 100%; position: inherit; height: 580px; overflow: visible; margin: 0px 0px 10px; padding: 0px; border: none; z-index: 10000; right: 0px; bottom: 0px; opacity: 1;"></iframe>
+         </div>
+     </div>
+ </div>
+
+ <a href="#x" class="overlay" id="popup-cost3"></a>
+ <div class="popup2">
+    <div class="popup__wp">
+        <div class="popup__top"><a href="#x" class="popup__close icon-close"></a></div>
+        <div class="popup__content">
+         <center><img src="/t/img/form_logo.jpeg" alt="" /></center><br><br>
+         <iframe  src="/amoform.php?id=277948&hash=d49c2f25e86e963872f7568bdb906e21" class="amoforms_iframe" allowtransparency="" scrolling="no" frameborder="0" style="width: 100%; position: inherit; height: 580px; overflow: visible; margin: 0px 0px 10px; padding: 0px; border: none; z-index: 10000; right: 0px; bottom: 0px; opacity: 1;"></iframe>
+
+     </div>
+ </div>
+</div>
+
+</div>
+
+
+
+<style>
+.popup__content {
+   padding-bottom: 0px;
+}
+</style>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/cart_js.js"></script>
+</body>
+</html>

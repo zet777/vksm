@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1440px) {
+    .page-block{
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .content__cart {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: center;
+    }
+    .products{
+        margin-bottom: 35px;
+    }
+    .page-block{
+        margin-top: 55px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .cart-card {
+        max-width: 543px;
+        min-height: 336px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #ebebeb;
+        -webkit-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        align-items: center;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+    }
+    .cart-card__count{
+        margin-left: -38px;
+    }
+    .cart-card__dscr {
+        margin-left: 25px;
+        width: 100%;
+    }
+    .cart-card__img {
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .cart-form__container {
+        margin-left: 10px;
+    }
+    .adress-div-map:after {
+        content: url(../img/Capa1.png);
+        position: relative;
+        right: -20px;
+        width: 22px;
+        height: 22px;
+        background-repeat: no-repeat;
+    }
+    input[type="text"], input[type="email"] {
+        width: 76.3%;
+        height: 65px;
+        border: 1px solid #cacaca;
+        padding-left: 10px;
+        font-size: 10pt;
+    }
+    .products__total-count {
+        background-image: none;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: "PT Sans";
+        color: rgb(54, 54, 54);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+    }
+    span.label {
+        margin-right: 50px;
+        display: contents;
+    }
+}    
+
+@media only screen and (max-width: 320px) {
+    .cart-form .button {
+    margin-top: 45px;
+    margin-bottom: 80px;
+    position: inherit;
+    left: 0;
+    }
+}
